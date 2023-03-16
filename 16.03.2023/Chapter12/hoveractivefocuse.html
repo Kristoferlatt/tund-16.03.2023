@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Active Focus</title>
+    <style>
+        input{
+            padding: 6px 12px 6px 12px;
+            border: 1px solid red;
+            color: sandybrown;
+
+        }
+        input.submit:hover{
+            background-color: seagreen;
+            
+        }
+        input.submit:active{
+            background-color: skyblue;
+        }
+        input.text{
+            color: red;
+        }
+        input.text:focus{
+            color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" class="text" value="Enter email address...."/>
+        <input type="submit" class="submit"/>
+    </form>
+</body>
+</html>
